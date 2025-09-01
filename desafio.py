@@ -8,10 +8,10 @@ if media < 5:
     print("reprovado")
 elif media > 6.5:
     print("aprovado")
-elif media>5 and media< 6.5:
+elif media>5 or media< 6.5:
     print("recuperação")
 print("notas da recuperação:")
-if media <6.5:
-    print("reprovado na recuperação")
+elif media <6.5:
+   print("reprovado na recuperação")
 else:
-    print("aprovado na recuperação")   
+     print("aprovado na recuperação")   
